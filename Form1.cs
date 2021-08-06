@@ -95,16 +95,17 @@ namespace payroll
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
-            if (textBox2.Text == "remarks")
-            {
-                textBox2.Text = "";
+            //if (textBox2.Text == "remarks")
+            //{
+            //    textBox2.Text = "";
 
-                textBox2.ForeColor = Color.Black;
-            }
+            //    textBox2.ForeColor = Color.Black;
+            //}
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+           
             SqlCommand cmd = new SqlCommand(@"INSERT INTO [dbo].[Form]
            ([Name]
            ,[ProfilePic]
@@ -128,12 +129,12 @@ namespace payroll
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            if (textBox1.Text == "Your Name ....")
-            {
-                textBox1.Text = "";
+            //if (textBox1.Text == "Your Name ....")
+            //{
+            //    textBox1.Text = "";
 
-                textBox1.ForeColor = Color.Black;
-            }
+            //    textBox1.ForeColor = Color.Black;
+            //}
         }
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
@@ -193,7 +194,7 @@ namespace payroll
          
             checkBox6.Checked = false;
             checkBox5.Checked = false;
-            trackBar1.Enabled = false;
+            trackBar1.IsAccessible=false;
             radioButton1.Checked = false;
             radioButton2.Checked = false;
         }
