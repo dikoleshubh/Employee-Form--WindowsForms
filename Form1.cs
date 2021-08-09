@@ -24,6 +24,9 @@ namespace payroll
         public string ProfilePic;
         public string Gender;
         public string Department;
+        int IDS;
+
+       
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -119,6 +122,7 @@ namespace payroll
             cmd.ExecuteNonQuery();
             connection.Close();
             MessageBox.Show("Employee Registration successful");
+            Form2 form2 = new Form2();
 
         }
 
@@ -208,5 +212,24 @@ namespace payroll
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+            IDS = Form2.id;
+            connection.Open();
+             SqlCommand cmd = new SqlCommand("UPDATE [dbo].[Form] set [Name] ='" + textBox1.Text + "',[ProfilePic]='" + ProfilePic + "',[Gender]='" + Gender + "',[Department]='" + Department + "',[Salary]='" + label9.Text + "',[Date]='" + dateTimePicker1.Text + "',[Remarks]='" + textBox2.Text + "' where PersonID='" + IDS + "'", connection);
+            cmd.ExecuteNonQuery();
+            connection.Close();
+            MessageBox.Show("Record Update Successful");
+            //  up.Show();
+            Close();
+            Form2 form2 = new Form2();
+            form2.display();
+            MessageBox.Show("Updated ");
+        }
+
+
+       
     }
 }

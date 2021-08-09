@@ -10,7 +10,6 @@ C:\Users\Admin\source\repos\payroll\bin\Debug\netcoreapp3.1\runtimes\win-x64\nat
 C:\Users\Admin\source\repos\payroll\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 C:\Users\Admin\source\repos\payroll\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Admin\source\repos\payroll\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Admin\source\repos\payroll\obj\Debug\netcoreapp3.1\payroll.csprojAssemblyReference.cache
 C:\Users\Admin\source\repos\payroll\obj\Debug\netcoreapp3.1\payroll.Form1.resources
 C:\Users\Admin\source\repos\payroll\obj\Debug\netcoreapp3.1\payroll.Properties.Resources.resources
 C:\Users\Admin\source\repos\payroll\obj\Debug\netcoreapp3.1\payroll.csproj.GenerateResource.cache
@@ -21,3 +20,5 @@ C:\Users\Admin\source\repos\payroll\obj\Debug\netcoreapp3.1\payroll.csproj.CopyC
 C:\Users\Admin\source\repos\payroll\obj\Debug\netcoreapp3.1\payroll.dll
 C:\Users\Admin\source\repos\payroll\obj\Debug\netcoreapp3.1\payroll.pdb
 C:\Users\Admin\source\repos\payroll\obj\Debug\netcoreapp3.1\payroll.genruntimeconfig.cache
+C:\Users\Admin\source\repos\payroll\obj\Debug\netcoreapp3.1\payroll.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\payroll\obj\Debug\netcoreapp3.1\payroll.Form2.resources
